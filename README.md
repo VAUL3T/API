@@ -74,7 +74,7 @@ But our provider has its own log system
 |-------------------------------|:-------:|:-----:|:-----:|
 | Who you searched              |   🔴    |   🔴   |   -   |  
 | When you searched             |   🔴    |   🔴   |   -   | 
-| User-Agent                    |   🟢    |   🟢   |   Unkown   | 
+| User-Agent                    |   🔴   |   🔴 |   -   | 
 | Who you are                   |   🔴    |   🔴   |   -   |    
 | Username                      |   🔴    |   🔴   |   -   |     
 | User ID                       |   🔴    |   🔴   |   -   |     
@@ -88,7 +88,7 @@ unlike other services we dont log any user data at all
 we dont know who you are searching , who you are and when you searched 
 
 > [!NOTE]
-> Logs are only visible until server shutdown , no logfile is created everything is only printed into the console , for provider logs we advice to use a User-Agent spoofer and a VPN , if you host this on a server like google cloud/VPS it does not matter and you can search without these
+> Logs are only visible until server shutdown , no logfile is created everything is only printed into the console 
 
 ## Rate Limit
 
